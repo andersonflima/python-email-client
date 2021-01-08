@@ -1,5 +1,16 @@
 # PYTHON EMAIL CLIENT
 
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+```
+python  ^3.8
+decouple ^3.3
+```
+# Description
 This code sends an email with a text message and an image attached
 This code is configured to use gmail smtp
 
@@ -25,17 +36,6 @@ The content of the message is obtained from the message.txt file
 Feel free to change it
 
 The attached image is obtained from the project's root directory looking for the extension, the code takes only the first .jpeg file found.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-```
-python  ^3.8
-decouple ^3.3
-```
 
 ### Installing
 
